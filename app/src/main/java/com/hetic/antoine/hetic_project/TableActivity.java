@@ -10,13 +10,14 @@ public class TableActivity extends AppCompatActivity {
 
     Button pButton;
     Button cButton;
+    Button xButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_table);
 
-        pButton = findViewById(R.id.table);
+        pButton = findViewById(R.id.profil);
         pButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -30,6 +31,15 @@ public class TableActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(TableActivity.this, CartActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        xButton = findViewById(R.id.panier);
+        xButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(TableActivity.this, CommandeActivity.class);
                 startActivity(intent);
             }
         });

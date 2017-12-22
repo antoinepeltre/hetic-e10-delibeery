@@ -10,6 +10,9 @@ public class panierActivity extends AppCompatActivity {
     Button pButton;
     Button tButton;
     Button cButton;
+    Button xButton;
+    Button zButton;
+
 
 
     @Override
@@ -45,5 +48,27 @@ public class panierActivity extends AppCompatActivity {
 
             }
         });
+
+        xButton = findViewById(R.id.panier);
+        xButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(panierActivity.this, CommandeActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        zButton = findViewById(R.id.buttonForPaye);
+        zButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(panierActivity.this, CommandeActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
     }
 }

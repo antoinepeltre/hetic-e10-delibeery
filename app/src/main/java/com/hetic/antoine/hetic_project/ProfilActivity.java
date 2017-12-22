@@ -8,25 +8,16 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class ProfilActivity extends AppCompatActivity {
-    Button mButton;
+
     Button tButton;
     Button cButton;
-
+    Button xButton;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profil);
-
-        mButton = findViewById(R.id.profil);
-        mButton.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(ProfilActivity.this, ProfilActivity.class);
-                startActivity(intent);
-            }
-        });
 
         tButton = findViewById(R.id.table);
         tButton.setOnClickListener(new View.OnClickListener(){
@@ -42,6 +33,15 @@ public class ProfilActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(ProfilActivity.this, CartActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        xButton = findViewById(R.id.panier);
+        xButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(ProfilActivity.this, CommandeActivity.class);
                 startActivity(intent);
             }
         });

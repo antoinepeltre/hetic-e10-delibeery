@@ -14,6 +14,7 @@ public class CartActivity extends AppCompatActivity {
     Button d2Button;
     Button d5Button;
     Button d12Button;
+    Button xButton;
 
 
     @Override
@@ -76,6 +77,16 @@ public class CartActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(CartActivity.this, panierActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        xButton = findViewById(R.id.panier);
+        xButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(CartActivity.this, CommandeActivity.class);
                 startActivity(intent);
             }
         });
