@@ -20,7 +20,8 @@
         <activity android:name=".ProfilActivity" />
         <activity android:name=".TableActivity" />
         <activity android:name=".CartActivity" />
-        <activity android:name=".panierActivity"></activity>
+        <activity android:name=".panierActivity" />
+        <activity android:name=".CommandeActivity"></activity>
     </application>
 
 </manifest>
