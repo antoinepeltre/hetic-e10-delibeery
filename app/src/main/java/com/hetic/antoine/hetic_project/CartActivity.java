@@ -21,6 +21,8 @@ public class CartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
 
+
+
         pButton = findViewById(R.id.profil);
         pButton.setOnClickListener(new View.OnClickListener(){
             @Override
