@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "208340218025",
+    "firebase_url": "https://heticproject-89bea.firebaseio.com",
+    "project_id": "heticproject-89bea",
+    "storage_bucket": "heticproject-89bea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208340218025:android:d47ecb3f3b81440e",
+        "android_client_info": {
+          "package_name": "com.hetic.antoine.hetic_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208340218025-0m8kskcdghr2t5gvr42s0busnslngles.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hetic.antoine.hetic_project",
+            "certificate_hash": "9f1d4bbfb9c0ade4d3f27abee9e5115bbeea5a94"
+          }
+        },
+        {
+          "client_id": "208340218025-dp32m0e01o5pr059u2e4frikb6lr3q21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6FJ7LW-EtTMc8A7ZK8L3PjmTY1Ozl3CM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208340218025-dp32m0e01o5pr059u2e4frikb6lr3q21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

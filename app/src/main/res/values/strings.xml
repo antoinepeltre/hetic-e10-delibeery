@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">hetic_project</string>
+    <string name="textview">TextView</string>
+</resources>
