@@ -24,7 +24,7 @@ public class ScanActivity extends AppCompatActivity implements View.OnClickListe
         mButton.setOnClickListener(new View.OnClickListener(){
          @Override
             public void onClick(View view){
-             Intent intent = new Intent(ScanActivity.this, ProfilActivity.class);
+             Intent intent = new Intent(ScanActivity.this, TableActivity.class);
              startActivity(intent);
          }
         });
